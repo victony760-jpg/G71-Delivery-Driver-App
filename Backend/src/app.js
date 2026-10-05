@@ -27,6 +27,7 @@ app.use(
 );
 
 const allowedOrigins = new Set([
+  'https://g71-delivery-driver-app.vercel.app',
   'https://g71logistics.com',
   'https://www.g71logistics.com',
 ]);
