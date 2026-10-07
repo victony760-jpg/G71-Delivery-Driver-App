@@ -173,7 +173,7 @@ export default function Home() {
           <motion.div initial="hidden" animate="show" variants={revealStagger}>
             <motion.p
               variants={heroReveal}
-              className="text-red-500 font-bold text-[11px] tracking-[0.4em] mb-6"
+              className="text-red-500 font-bold text-[13px] tracking-[0.4em] mb-4"
             >
               LIVE ACROSS NIGERIA • BUILT FOR SPEED
             </motion.p>
@@ -273,7 +273,7 @@ export default function Home() {
       >
         <motion.p
           variants={fadeUp}
-          className="text-red-600 font-bold text-[11px] tracking-[0.3em]"
+          className="text-red-600 font-bold text-[15px] tracking-[0.3em]"
         >
           WHY G71
         </motion.p>
@@ -324,7 +324,7 @@ export default function Home() {
             className={`grid lg:grid-cols-2 gap-12 items-center`}
           >
             <div className={i % 2 === 1 ? 'lg:order-2' : ''}>
-              <p className="text-red-600 font-bold text-[11px]">{s.k}</p>
+              <p className="text-red-600 font-bold text-[15px]">{s.k}</p>
               <h3 className="text-[28px] md:text-[48px] font-bold mt-4 leading-[0.9]">
                 {s.t}
               </h3>
@@ -447,9 +447,9 @@ export default function Home() {
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
           className="text-[36px] md:text-[56px] font-bold leading-[0.9]"
         >
-          TRUSTED BY BUSINESSES
+          TRUSTED BY LEADING BUSINESSES
           <br />
-          THAT MOVE NIGERIA.
+          ACROSS NIGERIA.
         </motion.h2>
         <div className="grid md:grid-cols-3 gap-8 mt-16">
           {testimonials.map((testimonial, index) => (
@@ -492,7 +492,7 @@ export default function Home() {
           <div>
             <motion.p
               variants={fadeUp}
-              className="text-red-600 font-bold text-[11px] tracking-[0.3em]"
+              className="text-red-600 font-bold text-[15px] tracking-[0.3em]"
             >
               NEED ANSWERS?
             </motion.p>
@@ -568,7 +568,7 @@ export default function Home() {
                 exit={{ opacity: 0, x: 30 }}
                 transition={{ duration: 0.5 }}
               >
-                <p className="text-red-600 font-bold text-[11px] tracking-widest">
+                <p className="text-red-600 font-bold text-[15px] tracking-widest">
                   STEP {steps[stepIndex].num}
                 </p>
                 <h3 className="text-4xl font-bold mt-4 leading-[0.9]">
