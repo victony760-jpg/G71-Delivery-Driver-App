@@ -56,7 +56,7 @@ export default function About() {
           >
             <motion.p
               variants={fadeUp}
-              className="text-red-500 font-bold text-[11px] tracking-[0.4em]"
+              className="text-red-500 font-bold text-[15px] tracking-[0.4em]"
             >
               ABOUT G71 LOGISTICS
             </motion.p>
@@ -72,7 +72,7 @@ export default function About() {
             </motion.h1>
             <motion.p
               variants={fadeUp}
-              className="text-white/70 max-w-xl mt-6 leading-relaxed"
+              className="text-white/70 max-w-xl mt-6 mb-10 leading-relaxed"
             >
               Founded in 2023 in Lagos, G71 Logistics provides fast, tracked and
               insured delivery services for businesses across all 36 states in
@@ -92,7 +92,7 @@ export default function About() {
         >
           <motion.p
             variants={fadeUp}
-            className="text-red-600 font-bold text-[11px] tracking-[0.3em]"
+            className="text-red-600 font-bold text-[15px] tracking-[0.3em]"
           >
             WHO WE ARE
           </motion.p>
@@ -272,7 +272,7 @@ export default function About() {
       {/* WHY CHOOSE US */}
       <div className="bg-black text-white px-6 lg:px-20 py-20 grid lg:grid-cols-2 gap-16 items-center">
         <div>
-          <p className="text-red-500 font-bold text-[11px] tracking-[0.3em]">
+          <p className="text-red-500 font-bold text-[15px] tracking-[0.3em]">
             WHY CHOOSE G71
           </p>
           <h2 className="font-cormorant text-[36px] md:text-[48px] font-bold leading-[0.9] mt-4">

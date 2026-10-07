@@ -34,7 +34,10 @@ export default function Career() {
   const [feedback, setFeedback] = useState({ type: '', message: '' });
 
   const updateField = (event) =>
-    setForm((current) => ({ ...current, [event.target.name]: event.target.value }));
+    setForm((current) => ({
+      ...current,
+      [event.target.name]: event.target.value,
+    }));
 
   const updateDocument = (event) => {
     const file = event.target.files?.[0];
@@ -102,8 +105,8 @@ export default function Career() {
       <div className="bg-black px-4 md:px-8 lg:px-20 pt-28 md:pt-36 pb-16 md:pb-28">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1.2fr_0.8fr] gap-10 lg:gap-12">
           <div>
-            <p className="text-red-500 font-bold text-[10px] md:text-[11px] tracking-[0.25em] md:tracking-[0.4em] leading-relaxed">
-              CAREERS • APPLY: 08038445230 • MAHORAGA123455@gmail.com
+            <p className="text-red-500 font-bold text-[10px] md:text-[15px] tracking-[0.25em] md:tracking-[0.4em] leading-relaxed">
+              CAREERS • START YOUR JOURNEY WITH US
             </p>
             <h1 className="font-cormorant text-white text-[40px] sm:text-[56px] lg:text-[88px] font-bold leading-[0.9] md:leading-[0.85] mt-6">
               RIDE WITH
@@ -210,7 +213,7 @@ export default function Career() {
           className="mt-16 md:mt-24 grid grid-cols-1 lg:grid-cols-[1.2fr_0.8fr] gap-8 lg:gap-12"
         >
           <div className="border border-black/10 rounded-[20px] md:rounded-[24px] p-6 md:p-10">
-            <p className="text-red-600 font-bold text-[10px] md:text-[11px] tracking-widest">
+            <p className="text-red-600 font-bold text-[10px] md:text-[15px] tracking-widest">
               DRIVER APPLICATION FORM
             </p>
             <h3 className="font-cormorant text-[32px] md:text-[40px] font-bold mt-3 md:mt-4 leading-[0.95]">
@@ -269,7 +272,12 @@ export default function Career() {
                   <label className="text-[10px] font-bold tracking-widest">
                     CITY *
                   </label>
-                  <select name="city" value={form.city} onChange={updateField} className="w-full mt-2 md:mt-3 bg-[#F5F5F0] px-5 py-4 rounded-xl text-sm font-bold outline-none">
+                  <select
+                    name="city"
+                    value={form.city}
+                    onChange={updateField}
+                    className="w-full mt-2 md:mt-3 bg-[#F5F5F0] px-5 py-4 rounded-xl text-sm font-bold outline-none"
+                  >
                     <option>Lagos</option>
                     <option>Abuja</option>
                     <option>Port Harcourt</option>
@@ -281,7 +289,12 @@ export default function Career() {
                   <label className="text-[10px] font-bold tracking-widest">
                     BIKE STATUS
                   </label>
-                  <select name="bikeStatus" value={form.bikeStatus} onChange={updateField} className="w-full mt-2 md:mt-3 bg-[#F5F5F0] px-5 py-4 rounded-xl text-sm font-bold outline-none">
+                  <select
+                    name="bikeStatus"
+                    value={form.bikeStatus}
+                    onChange={updateField}
+                    className="w-full mt-2 md:mt-3 bg-[#F5F5F0] px-5 py-4 rounded-xl text-sm font-bold outline-none"
+                  >
                     <option>Own Bike</option>
                     <option>Need Company Bike (HP)</option>
                   </select>
@@ -291,7 +304,12 @@ export default function Career() {
                 <label className="text-[10px] font-bold tracking-widest">
                   YEARS OF EXPERIENCE
                 </label>
-                <select name="experience" value={form.experience} onChange={updateField} className="w-full mt-2 md:mt-3 bg-[#F5F5F0] px-5 py-4 rounded-xl text-sm font-bold outline-none">
+                <select
+                  name="experience"
+                  value={form.experience}
+                  onChange={updateField}
+                  className="w-full mt-2 md:mt-3 bg-[#F5F5F0] px-5 py-4 rounded-xl text-sm font-bold outline-none"
+                >
                   <option>Less than 1 year</option>
                   <option>1-2 years</option>
                   <option>3+ years</option>

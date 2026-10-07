@@ -69,9 +69,9 @@ export default function Contact() {
           <div>
             <motion.p
               variants={fadeUp}
-              className="text-red-500 font-bold text-[11px] tracking-[0.4em]"
+              className="text-red-500 font-bold text-[15px] tracking-[0.4em]"
             >
-              CONTACT G71 • 24/7 NATIONWIDE
+              CONTACT G71 • NATIONWIDE
             </motion.p>
             <motion.h1
               variants={fadeUp}
@@ -141,7 +141,7 @@ export default function Contact() {
       {/* FORM + INFO */}
       <div className="max-w-7xl mx-auto px-6 lg:px-20 py-20 grid lg:grid-cols-[1.3fr_0.7fr] gap-12">
         <div className="border border-black/10 rounded-[24px] p-10">
-          <p className="text-red-600 font-bold text-[11px] tracking-widest">
+          <p className="text-red-600 font-bold text-[15px] tracking-widest">
             SEND US A MESSAGE
           </p>
           <h3 className="font-cormorant text-[38px] font-bold mt-4 leading-[0.9]">
